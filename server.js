@@ -1,4 +1,13 @@
 const express = require('express');
+const path = require('path');
+
+// This line tells the server to serve all static files from the "public" folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+// This line ensures that visiting the base URL loads your index.html
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 const cors = require('cors');
 require('dotenv').config();
 const fs = require('fs');
