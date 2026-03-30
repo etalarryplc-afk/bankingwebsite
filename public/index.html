@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="USFinance - Your Trusted Banking Partner for Financial Excellence">
+    <meta name="keywords" content="banking, finance, investment, savings, loans">
+    <title>USFinance - Banking Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1>
+                    <i class="fas fa-bank"></i> USFinance
+                </h1>
+            </div>
+            <div class="navbar-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="create-account.html" class="nav-link btn-primary">Create Account</a></li>
+                <li><a href="#" class="nav-link btn-login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to USFinance</h2>
+                <p>Your Trusted Banking Partner for Financial Excellence and Growth</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'})">
+                        Get Started
+                    </button>
+                    <button class="btn btn-secondary">Learn More</button>
+                    <button class="btn btn-primary" onclick="window.location.href='create-account.html'">Create Account</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive financial solutions tailored to your needs</p>
+            
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Savings Accounts</h3>
+                    <p>Secure and flexible savings accounts with competitive interest rates to help you grow your wealth.</p>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Credit Cards</h3>
+                    <p>Premium credit cards with rewards, cashback, and exclusive benefits for smart spending.</p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Mortgages</h3>
+                    <p>Competitive mortgage rates for home purchases with flexible terms and fast approval process.</p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Auto Loans</h3>
+                    <p>Easy and affordable auto financing options to help you drive your dream car today.</p>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Investment Plans</h3>
+                    <p>Expert investment guidance and diverse portfolio options for long-term wealth building.</p>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Insurance</h3>
+                    <p>Comprehensive insurance coverage including life, health, and property protection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose USFinance</h2>
+            <p class="section-subtitle">Banking features designed for your convenience</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer service via phone, email, and live chat.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <h3>Mobile App</h3>
+                    <p>Manage your finances on-the-go with our secure mobile application.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <h3>Low Fees</h3>
+                    <p>Transparent pricing with minimal fees and no hidden charges.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <h3>Security First</h3>
+                    <p>Bank-grade encryption and multi-factor authentication for safety.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">05</div>
+                    <h3>Fast Transfers</h3>
+                    <p>Quick and reliable money transfers to any account instantly.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">06</div>
+                    <h3>Rewards Program</h3>
+                    <p>Earn points and rewards on every transaction with us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>500K+</h3>
+                <p>Active Customers</p>
+            </div>
+            <div class="stat-item">
+                <h3>$50B+</h3>
+                <p>Assets Under Management</p>
+            </div>
+            <div class="stat-item">
+                <h3>1000+</h3>
+                <p>Branch Locations</p>
+            </div>
+            <div class="stat-item">
+                <h3>25+</h3>
+                <p>Years of Excellence</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About USFinance</h2>
+            <p class="section-subtitle">Leading the financial industry with innovation and trust</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        USFinance is a leading financial institution committed to providing exceptional banking services 
+                        to millions of customers across the nation. With over 25 years of experience, we've built a reputation 
+                        for excellence, reliability, and customer-centric solutions.
+                    </p>
+                    <p>
+                        Our mission is to empower individuals and businesses with innovative financial products and services 
+                        that help them achieve their dreams and build lasting wealth.
+                    </p>
+                    <div class="about-values">
+                        <div class="value">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Trust & Integrity</span>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Innovation & Technology</span>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Customer Excellence</span>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Community Focus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates, financial tips, and exclusive offers delivered to your inbox.</p>
+            <form id="newsletterForm" class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+            <div id="newsletterMessage" class="message"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you. Send us a message!</p>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="contactMessage" class="message"></div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+1 609-629-7943</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>admin@usfinance.online</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>1000 Main Street, New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 9AM-6PM EST</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About USFinance</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Support Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 USFinance. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

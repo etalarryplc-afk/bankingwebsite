@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - USFinance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1><i class="fas fa-bank"></i> USFinance</h1>
+            </div>
+            <div class="container" style="display:flex;gap:12px;align-items:center;">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container create-account" style="padding:40px 0;">
+        <h2 class="section-title">Create an Account</h2>
+        <p class="section-subtitle">Open a Personal, Savings or Checking account — securely and quickly.</p>
+
+        <form id="createAccountForm" enctype="multipart/form-data" class="contact-form">
+            <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="idNumber">ID Number *</label>
+                <input type="text" id="idNumber" name="idNumber" required>
+            </div>
+
+            <fieldset style="margin-bottom:1rem;">
+                <legend>Account Type *</legend>
+                <label><input type="radio" name="accountType" value="personal" checked> Personal</label>
+                <label style="margin-left:1rem;"><input type="radio" name="accountType" value="savings"> Savings</label>
+                <label style="margin-left:1rem;"><input type="radio" name="accountType" value="checking"> Checking</label>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="idFront">Upload ID Front {jpeg, png, pdf} *</label>
+                <input type="file" id="idFront" name="idFront" accept="image/*,.pdf" required>
+            </div>
+            <div class="form-group">
+                <label for="idBack">Upload ID Back {jpeg, png, pdf} *</label>
+                <input type="file" id="idBack" name="idBack" accept="image/*,.pdf" required>
+            </div>
+
+            <div class="form-group">
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="zip">
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+            </div>
+
+n            <button type="submit" class="btn btn-primary">Submit Application</button>
+        </form>
+
+n        <div id="createAccountMessage" class="message" style="margin-top:1rem;"></div>
+    </section>
+
+    <script src="js/create-account.js"></script>
+</body>
+</html>
