@@ -1,23 +1,13 @@
 {
-  "name": "usfinance",
+  "name": "bankingwebsite",
   "version": "1.0.0",
-  "description": "USFinance - Professional Banking Landing Page",
+  "description": "Banking Landing Page",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
-  "keywords": ["banking", "finance", "landing-page"],
-  "author": "hackdemon4-stack",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "multer": "^1.4.4"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
   }
 }
-"fix multer version"
